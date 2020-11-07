@@ -1,8 +1,9 @@
-﻿public enum SceneNames
+﻿public enum SceneName
 {
     Scene1_Farm,
-    Scene2_Town,
-    Scene3_Wilderness
+    Scene2_Cabin,
+    Scene3_Town,
+    Scene4_Wilderness
 }
 
 public enum Direction

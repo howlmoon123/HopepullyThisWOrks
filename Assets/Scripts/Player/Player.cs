@@ -90,4 +90,8 @@ public class Player : SingletonMonobehaviour<Player>
             movementSpeed = Settings.runningSpeed;
         }
     }
+
+   
+
+
 }

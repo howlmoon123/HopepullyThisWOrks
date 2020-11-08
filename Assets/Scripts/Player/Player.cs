@@ -15,6 +15,28 @@ public class Player : SingletonMonobehaviour<Player>
     public bool PlayerInputIsDisabled { get => _playerInputIsDisabled; set => _playerInputIsDisabled = value; }
     public Direction playerDirection;
 
+    private void OnEnable()
+    {
+        EventHandler.BeforeSceneUnloadEvent += SetPlayerDisabled;
+        EventHandler.AfterSceneLoadEvent += UnSetPlayerDisabled;
+    }
+
+    private void OnDisable()
+    {
+        EventHandler.BeforeSceneUnloadEvent += SetPlayerDisabled;
+        EventHandler.AfterSceneLoadEvent += UnSetPlayerDisabled;
+    }
+
+    public void SetPlayerDisabled()
+    {
+        PlayerInputIsDisabled = true;
+    }
+
+    public void UnSetPlayerDisabled()
+    {
+        PlayerInputIsDisabled = false;
+    }
+
     protected override void Awake()
     {
         base.Awake();
@@ -90,8 +112,4 @@ public class Player : SingletonMonobehaviour<Player>
             movementSpeed = Settings.runningSpeed;
         }
     }
-
-   
-
-
 }

@@ -11,23 +11,25 @@ namespace UnityEditor.Tilemaps
     {
         private const float k_PerlinOffset = 100000f;
 
-        #pragma warning disable 0649
+#pragma warning disable 0649
+
         /// <summary>
         /// The selection of Prefabs to paint from
         /// </summary>
-        [SerializeField] GameObject[] m_Prefabs;
+        [SerializeField] private GameObject[] m_Prefabs;
 
         /// <summary>
         /// Factor for distribution of choice of Prefabs to paint
         /// </summary>
-        [SerializeField] float m_PerlinScale = 0.5f;
-        #pragma warning restore 0649
+        [SerializeField] private float m_PerlinScale = 0.5f;
+
+#pragma warning restore 0649
 
         /// <summary>
         /// If true, erases any GameObjects that are in a given position within the selected layers with Erasing.
         /// Otherwise, erases only GameObjects that are created from owned Prefab in a given position within the selected layers with Erasing.
         /// </summary>
-        bool m_EraseAnyObjects;
+        private bool m_EraseAnyObjects;
 
         /// <summary>
         /// Paints GameObject from containg Prefabs with randomly into a given position within the selected layers.
@@ -87,7 +89,7 @@ namespace UnityEditor.Tilemaps
 
         private static float GetPerlinValue(Vector3Int position, float scale, float offset)
         {
-            return Mathf.PerlinNoise((position.x + offset)*scale, (position.y + offset)*scale);
+            return Mathf.PerlinNoise((position.x + offset) * scale, (position.y + offset) * scale);
         }
 
         /// <summary>

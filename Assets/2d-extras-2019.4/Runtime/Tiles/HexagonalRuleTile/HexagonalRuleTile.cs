@@ -5,7 +5,7 @@ namespace UnityEngine
     /// <summary>
     /// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles.
     /// This is templated to accept a Neighbor Rule Class for Custom Rules.
-    /// Use this for Hexagonal Grids. 
+    /// Use this for Hexagonal Grids.
     /// </summary>
     /// <typeparam name="T">Neighbor Rule Class for Custom Rules</typeparam>
     public class HexagonalRuleTile<T> : HexagonalRuleTile
@@ -37,6 +37,7 @@ namespace UnityEngine
             Mathf.Cos(-240 * Mathf.Deg2Rad),
             Mathf.Cos(-300 * Mathf.Deg2Rad),
         };
+
         private static float[] m_SinAngleArr1 = {
             Mathf.Sin(0 * Mathf.Deg2Rad),
             Mathf.Sin(-60 * Mathf.Deg2Rad),
@@ -45,6 +46,7 @@ namespace UnityEngine
             Mathf.Sin(-240 * Mathf.Deg2Rad),
             Mathf.Sin(-300 * Mathf.Deg2Rad),
         };
+
         private static float[] m_CosAngleArr2 = {
             Mathf.Cos(0 * Mathf.Deg2Rad),
             Mathf.Cos(60 * Mathf.Deg2Rad),
@@ -53,6 +55,7 @@ namespace UnityEngine
             Mathf.Cos(240 * Mathf.Deg2Rad),
             Mathf.Cos(300 * Mathf.Deg2Rad),
         };
+
         private static float[] m_SinAngleArr2 = {
             Mathf.Sin(0 * Mathf.Deg2Rad),
             Mathf.Sin(60 * Mathf.Deg2Rad),
@@ -67,7 +70,7 @@ namespace UnityEngine
         /// </summary>
         [DontOverride] public bool m_FlatTop;
 
-        static float m_TilemapToWorldYScale = Mathf.Pow(1 - Mathf.Pow(0.5f, 2f), 0.5f);
+        private static float m_TilemapToWorldYScale = Mathf.Pow(1 - Mathf.Pow(0.5f, 2f), 0.5f);
 
         /// <summary>
         /// Converts a Tilemap Position to World Position.
@@ -133,7 +136,7 @@ namespace UnityEngine
         }
 
         /// <summary>
-        /// Gets a rotated position given its original position and the rotation in degrees. 
+        /// Gets a rotated position given its original position and the rotation in degrees.
         /// </summary>
         /// <param name="position">Original position of Tile.</param>
         /// <param name="rotation">Rotation in degrees.</param>

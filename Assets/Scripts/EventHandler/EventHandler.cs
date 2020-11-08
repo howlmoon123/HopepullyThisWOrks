@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
 
-public static class EventHandler 
+public static class EventHandler
 {
     // Scene Load Events - in the order they happen
 

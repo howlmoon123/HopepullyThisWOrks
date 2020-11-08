@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Reflection;
 using System.Linq;
+using System.Reflection;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -58,6 +58,7 @@ namespace UnityEditor
         }
 
         private static Texture2D[] s_AutoTransforms;
+
         /// <summary>
         /// Arrays of textures used for marking transform Rule matches
         /// </summary>
@@ -82,10 +83,12 @@ namespace UnityEditor
         /// The RuleTile being edited
         /// </summary>
         public RuleTile tile => target as RuleTile;
+
         /// <summary>
         /// Reorderable list for Rules
         /// </summary>
         private ReorderableList m_ReorderableList;
+
         /// <summary>
         /// Whether the RuleTile can extend its neighbors beyond directly adjacent ones
         /// </summary>
@@ -95,14 +98,17 @@ namespace UnityEditor
         /// Preview Utility for rendering previews
         /// </summary>
         public PreviewRenderUtility m_PreviewUtility;
+
         /// <summary>
         /// Grid for rendering previews
         /// </summary>
         public Grid m_PreviewGrid;
+
         /// <summary>
         /// List of Tilemaps for rendering previews
         /// </summary>
         public List<Tilemap> m_PreviewTilemaps;
+
         /// <summary>
         /// List of TilemapRenderers for rendering previews
         /// </summary>
@@ -112,14 +118,17 @@ namespace UnityEditor
         /// Default height for a Rule Element
         /// </summary>
         public const float k_DefaultElementHeight = 48f;
+
         /// <summary>
         /// Padding between Rule Elements
         /// </summary>
         public const float k_PaddingBetweenRules = 26f;
+
         /// <summary>
         /// Single line height
         /// </summary>
         public const float k_SingleLineHeight = 16f;
+
         /// <summary>
         /// Width for labels
         /// </summary>
@@ -190,7 +199,7 @@ namespace UnityEditor
         }
 
         /// <summary>
-        /// Gets the GUI element height for a TilingRule 
+        /// Gets the GUI element height for a TilingRule
         /// </summary>
         /// <param name="rule">Rule to get height for</param>
         /// <returns>GUI element height for a TilingRule</returns>
@@ -205,7 +214,7 @@ namespace UnityEditor
         }
 
         /// <summary>
-        /// Gets the GUI element height for a TilingRuleOutput 
+        /// Gets the GUI element height for a TilingRuleOutput
         /// </summary>
         /// <param name="rule">Rule to get height for</param>
         /// <returns>GUI element height for a TilingRuleOutput </returns>
@@ -218,6 +227,7 @@ namespace UnityEditor
                 case RuleTile.TilingRule.OutputSprite.Random:
                     inspectorHeight = k_DefaultElementHeight + k_SingleLineHeight * (rule.m_Sprites.Length + 3) + k_PaddingBetweenRules;
                     break;
+
                 case RuleTile.TilingRule.OutputSprite.Animation:
                     inspectorHeight = k_DefaultElementHeight + k_SingleLineHeight * (rule.m_Sprites.Length + 2) + k_PaddingBetweenRules;
                     break;
@@ -396,7 +406,6 @@ namespace UnityEditor
                 DestroyPreview();
                 CreatePreview();
             }
-
         }
 
         /// <summary>
@@ -447,9 +456,11 @@ namespace UnityEditor
                 case RuleTile.TilingRule.Neighbor.This:
                     GUI.DrawTexture(rect, arrows[GetArrowIndex(position)]);
                     break;
+
                 case RuleTile.TilingRule.Neighbor.NotThis:
                     GUI.DrawTexture(rect, arrows[9]);
                     break;
+
                 default:
                     var style = new GUIStyle();
                     style.alignment = TextAnchor.MiddleCenter;
@@ -489,15 +500,19 @@ namespace UnityEditor
                 case RuleTile.TilingRule.Transform.Rotated:
                     GUI.DrawTexture(rect, autoTransforms[0]);
                     break;
+
                 case RuleTile.TilingRule.Transform.MirrorX:
                     GUI.DrawTexture(rect, autoTransforms[1]);
                     break;
+
                 case RuleTile.TilingRule.Transform.MirrorY:
                     GUI.DrawTexture(rect, autoTransforms[2]);
                     break;
+
                 case RuleTile.TilingRule.Transform.Fixed:
                     GUI.DrawTexture(rect, autoTransforms[3]);
                     break;
+
                 case RuleTile.TilingRule.Transform.MirrorXY:
                     GUI.DrawTexture(rect, autoTransforms[4]);
                     break;
@@ -860,7 +875,7 @@ namespace UnityEditor
         /// Wrapper for serializing a list of Rules
         /// </summary>
         [Serializable]
-        class RuleTileRuleWrapper
+        private class RuleTileRuleWrapper
         {
             /// <summary>
             /// List of Rules to serialize
@@ -885,6 +900,7 @@ namespace UnityEditor
             var rulesJson = EditorJsonUtility.ToJson(rulesWrapper);
             EditorGUIUtility.systemCopyBuffer = rulesJson;
         }
+
         /// <summary>
         /// Pastes all Rules from the clipboard to a RuleTile
         /// </summary>

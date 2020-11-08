@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using UnityEngine.Tilemaps;
+﻿using System.Collections.Generic;
 using UnityEditorInternal;
-using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace UnityEditor
 {
@@ -16,13 +16,16 @@ namespace UnityEditor
         /// </summary>
         public new AdvancedRuleOverrideTile overrideTile => target as AdvancedRuleOverrideTile;
 
-        List<KeyValuePair<RuleTile.TilingRule, RuleTile.TilingRuleOutput>> m_Rules = new List<KeyValuePair<RuleTile.TilingRule, RuleTile.TilingRuleOutput>>();
+        private List<KeyValuePair<RuleTile.TilingRule, RuleTile.TilingRuleOutput>> m_Rules = new List<KeyValuePair<RuleTile.TilingRule, RuleTile.TilingRuleOutput>>();
         private ReorderableList m_RuleList;
         private int m_MissingOriginalRuleIndex;
 
-        static float k_DefaultElementHeight { get { return RuleTileEditor.k_DefaultElementHeight; } }
-        static float k_SingleLineHeight { get { return RuleTileEditor.k_SingleLineHeight; } }
-        static float k_LabelWidth { get { return RuleTileEditor.k_LabelWidth; } }
+        private static float k_DefaultElementHeight
+        { get { return RuleTileEditor.k_DefaultElementHeight; } }
+        private static float k_SingleLineHeight
+        { get { return RuleTileEditor.k_SingleLineHeight; } }
+        private static float k_LabelWidth
+        { get { return RuleTileEditor.k_LabelWidth; } }
 
         /// <summary>
         /// OnEnable for the AdvancedRuleOverrideTileEditor

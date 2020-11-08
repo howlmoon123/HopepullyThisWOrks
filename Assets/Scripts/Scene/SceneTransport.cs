@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class SceneTransport : MonoBehaviour
@@ -12,7 +10,7 @@ public class SceneTransport : MonoBehaviour
     {
         Player player = target.GetComponent<Player>();
 
-        if(player != null)
+        if (player != null)
         {
             float xPosition = Mathf.Approximately(scenePosition.x, 0f) ? player.transform.position.x : scenePosition.x;
 
@@ -20,7 +18,6 @@ public class SceneTransport : MonoBehaviour
 
             float zPosition = 0f;
 
-          
             // Teleport to new scene
             SceneControllerManager.Instance.FadeAndLoadScene(sceneNameGoto.ToString(), new Vector3(xPosition, yPosition, zPosition));
         }

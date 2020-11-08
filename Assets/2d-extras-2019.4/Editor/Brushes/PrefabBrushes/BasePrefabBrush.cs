@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace UnityEditor.Tilemaps
-{ 
+{
     /// <summary>
     /// This base class for PrefabBrushes that contains common functionality
     /// </summary>
@@ -54,11 +54,11 @@ namespace UnityEditor.Tilemaps
             }
         }
     }
-    
+
     /// <summary>
     /// The Base Brush Editor for a Prefab Brush.
     /// </summary>
-    public class BasePrefabBrushEditor :  GridBrushEditor
+    public class BasePrefabBrushEditor : GridBrushEditor
     {
         private SerializedProperty m_Anchor;
 

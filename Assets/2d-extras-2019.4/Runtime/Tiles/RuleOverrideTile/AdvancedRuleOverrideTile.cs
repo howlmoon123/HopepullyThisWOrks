@@ -12,9 +12,8 @@ namespace UnityEngine.Tilemaps
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/RuleOverrideTile.html")]
     public class AdvancedRuleOverrideTile : RuleOverrideTile
     {
-
         /// <summary>
-        /// Gets the overriding TilingRuleOutput of a given TilingRule. 
+        /// Gets the overriding TilingRuleOutput of a given TilingRule.
         /// </summary>
         /// <param name="originalRule">The original TilingRule that is overridden</param>
         public RuleTile.TilingRuleOutput this[RuleTile.TilingRule originalRule]
@@ -50,10 +49,12 @@ namespace UnityEngine.Tilemaps
         /// The Default Sprite set when creating a new Rule override.
         /// </summary>
         public Sprite m_DefaultSprite;
+
         /// <summary>
         /// The Default GameObject set when creating a new Rule override.
         /// </summary>
         public GameObject m_DefaultGameObject;
+
         /// <summary>
         /// The Default Collider Type set when creating a new Rule override.
         /// </summary>

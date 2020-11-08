@@ -9,20 +9,22 @@ namespace UnityEditor.Tilemaps
     [CustomGridBrush(false, true, false, "Prefab Brush")]
     public class PrefabBrush : BasePrefabBrush
     {
-        #pragma warning disable 0649
+#pragma warning disable 0649
+
         /// <summary>
         /// The selection of Prefab to paint from
         /// </summary>
-        [SerializeField] GameObject m_Prefab;
-        Quaternion m_Rotation = default;
-        
-        #pragma warning restore 0649
+        [SerializeField] private GameObject m_Prefab;
+
+        private Quaternion m_Rotation = default;
+
+#pragma warning restore 0649
 
         /// <summary>
         /// If true, erases any GameObjects that are in a given position within the selected layers with Erasing.
         /// Otherwise, erases only GameObjects that are created from owned Prefab in a given position within the selected layers with Erasing.
         /// </summary>
-        bool m_EraseAnyObjects;
+        private bool m_EraseAnyObjects;
 
         /// <summary>
         /// Rotates the brush in the given direction.
@@ -67,7 +69,7 @@ namespace UnityEditor.Tilemaps
         /// <param name="bounds">The cooridnate boundries to fill.</param>
         public override void BoxFill(GridLayout grid, GameObject brushTarget, BoundsInt bounds)
         {
-            foreach(Vector3Int tilePosition in bounds.allPositionsWithin)
+            foreach (Vector3Int tilePosition in bounds.allPositionsWithin)
                 Paint(grid, brushTarget, tilePosition);
         }
 

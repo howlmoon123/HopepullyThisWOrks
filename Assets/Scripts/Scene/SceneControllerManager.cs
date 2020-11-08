@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,7 +10,6 @@ public class SceneControllerManager : SingletonMonobehaviour<SceneControllerMana
     [SerializeField] private CanvasGroup faderCanvasGroup = null;
     [SerializeField] private Image faderImage = null;
     public SceneName startingSceneName;
-
 
     private IEnumerator Fade(float finalAlpha)
     {
@@ -45,7 +43,6 @@ public class SceneControllerManager : SingletonMonobehaviour<SceneControllerMana
     // This is the coroutine where the 'building blocks' of the script are put together.
     private IEnumerator FadeAndSwitchScenes(string sceneName, Vector3 spawnPosition)
     {
-        Debug.LogError("Scene Fade and Load start going to scene  " + sceneName + " Buid Index " + SceneManager.GetActiveScene().buildIndex);
         // Call before scene unload fade out event
         EventHandler.CallBeforeSceneUnloadFadeOutEvent();
 
@@ -53,7 +50,7 @@ public class SceneControllerManager : SingletonMonobehaviour<SceneControllerMana
         yield return StartCoroutine(Fade(1f));
 
         // Store scene data
-       // SaveLoadManager.Instance.StoreCurrentSceneData();
+        // SaveLoadManager.Instance.StoreCurrentSceneData();
 
         // Set player position
 
@@ -81,19 +78,16 @@ public class SceneControllerManager : SingletonMonobehaviour<SceneControllerMana
         EventHandler.CallAfterSceneLoadFadeInEvent();
     }
 
-
     private IEnumerator LoadSceneAndSetActive(string sceneName)
     {
-        
-
         // Allow the given scene to load over several frames and add it to the already loaded scenes (just the Persistent scene at this point).
         yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
 
         // Find the scene that was most recently loaded (the one at the last index of the loaded scenes).
         Scene newlyLoadedScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
-        Debug.LogError(" Scene " + newlyLoadedScene.name + " SceneCount " + SceneManager.sceneCount);
+        // Debug.LogError(" Scene " + newlyLoadedScene.name + " SceneCount " + SceneManager.sceneCount);
         // Set the newly loaded scene as the active scene (this marks it as the one to be unloaded next).
-        // SceneManager.SetActiveScene(newlyLoadedScene);
+        SceneManager.SetActiveScene(newlyLoadedScene);
     }
 
     private IEnumerator Start()
@@ -108,19 +102,16 @@ public class SceneControllerManager : SingletonMonobehaviour<SceneControllerMana
         // If this event has any subscribers, call it.
         EventHandler.CallAfterSceneLoadEvent();
 
-       // SaveLoadManager.Instance.RestoreCurrentSceneData();
-
+        // SaveLoadManager.Instance.RestoreCurrentSceneData();
 
         // Once the scene is finished loading, start fading in.
         StartCoroutine(Fade(0f));
     }
 
-
     // This is the main external point of contact and influence from the rest of the project.
     // This will be called when the player wants to switch scenes.
     public void FadeAndLoadScene(string sceneName, Vector3 spawnPosition)
     {
-      
         // If a fade isn't happening then start fading and switching scenes.
         if (!isFading)
         {

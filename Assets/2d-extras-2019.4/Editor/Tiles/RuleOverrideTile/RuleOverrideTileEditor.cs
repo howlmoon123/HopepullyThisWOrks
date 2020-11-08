@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using UnityEngine.Tilemaps;
+﻿using System.Collections.Generic;
 using UnityEditorInternal;
-using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace UnityEditor
 {
@@ -15,6 +15,7 @@ namespace UnityEditor
         /// The RuleOverrideTile being edited
         /// </summary>
         public RuleOverrideTile overrideTile => target as RuleOverrideTile;
+
         /// <summary>
         /// The RuleTileEditor for the overridden instance of the RuleTile
         /// </summary>
@@ -32,17 +33,19 @@ namespace UnityEditor
             }
         }
 
-        RuleTileEditor m_RuleTileEditor;
-        RuleTile m_RuleTileEditorTarget;
+        private RuleTileEditor m_RuleTileEditor;
+        private RuleTile m_RuleTileEditorTarget;
 
         /// <summary>
         /// List of Sprites and overriding Sprites
         /// </summary>
         public List<KeyValuePair<Sprite, Sprite>> m_Sprites = new List<KeyValuePair<Sprite, Sprite>>();
+
         /// <summary>
         /// List of GameObjects and overriding GameObjects
         /// </summary>
         public List<KeyValuePair<GameObject, GameObject>> m_GameObjects = new List<KeyValuePair<GameObject, GameObject>>();
+
         private ReorderableList m_SpriteList;
         private ReorderableList m_GameObjectList;
         private int m_MissingOriginalSpriteIndex;
@@ -52,10 +55,12 @@ namespace UnityEditor
         /// Height for a Sprite Element
         /// </summary>
         public static float k_SpriteElementHeight = 48;
+
         /// <summary>
         /// Height for a GameObject Element
         /// </summary>
         public static float k_GameObjectElementHeight = 16;
+
         /// <summary>
         /// Padding between Rule Elements
         /// </summary>
@@ -356,7 +361,7 @@ namespace UnityEditor
             SceneView.RepaintAll();
 
             SaveInstanceTileAsset();
-        
+
             if (overrideTile.m_InstanceTile)
             {
                 overrideTile.Override();

@@ -1,7 +1,9 @@
 ﻿using System;
 
 #if UNITY_EDITOR
+
 using UnityEditor;
+
 #endif
 
 namespace UnityEngine.Tilemaps
@@ -38,13 +40,14 @@ namespace UnityEngine.Tilemaps
                 hash = (hash + 0xbe9730af) ^ (hash << 11);
                 var oldState = Random.state;
                 Random.InitState((int)hash);
-                tileData.sprite = m_Sprites[(int) (m_Sprites.Length * Random.value)];
+                tileData.sprite = m_Sprites[(int)(m_Sprites.Length * Random.value)];
                 Random.state = oldState;
             }
         }
     }
 
 #if UNITY_EDITOR
+
     [CustomEditor(typeof(RandomTile))]
     public class RandomTileEditor : Editor
     {
@@ -86,7 +89,7 @@ namespace UnityEngine.Tilemaps
 
             for (int i = 0; i < count; i++)
             {
-                tile.m_Sprites[i] = (Sprite) EditorGUILayout.ObjectField("Sprite " + (i+1), tile.m_Sprites[i], typeof(Sprite), false, null);
+                tile.m_Sprites[i] = (Sprite)EditorGUILayout.ObjectField("Sprite " + (i + 1), tile.m_Sprites[i], typeof(Sprite), false, null);
             }
 
             EditorGUILayout.Space();
@@ -101,5 +104,6 @@ namespace UnityEngine.Tilemaps
             }
         }
     }
+
 #endif
 }

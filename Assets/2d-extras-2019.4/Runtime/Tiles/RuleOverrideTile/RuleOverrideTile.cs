@@ -13,7 +13,6 @@ namespace UnityEngine.Tilemaps
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/RuleOverrideTile.html")]
     public class RuleOverrideTile : TileBase
     {
-
         /// <summary>
         /// A data structure storing the Sprite overriding the original RuleTile Sprite
         /// </summary>
@@ -24,6 +23,7 @@ namespace UnityEngine.Tilemaps
             /// Original Sprite from the original RuleTile.
             /// </summary>
             public Sprite m_OriginalSprite;
+
             /// <summary>
             /// Overriding Sprite for the Original Sprite.
             /// </summary>
@@ -40,6 +40,7 @@ namespace UnityEngine.Tilemaps
             /// Original GameObject from the original RuleTile.
             /// </summary>
             public GameObject m_OriginalGameObject;
+
             /// <summary>
             /// Overriding GameObject for the Original Sprite.
             /// </summary>
@@ -47,7 +48,7 @@ namespace UnityEngine.Tilemaps
         }
 
         /// <summary>
-        /// Gets the overriding Sprite of a given Sprite. 
+        /// Gets the overriding Sprite of a given Sprite.
         /// </summary>
         /// <param name="originalSprite">The original Sprite that is overridden</param>
         public Sprite this[Sprite originalSprite]
@@ -89,7 +90,7 @@ namespace UnityEngine.Tilemaps
         }
 
         /// <summary>
-        /// Gets the overriding GameObject of a given GameObject. 
+        /// Gets the overriding GameObject of a given GameObject.
         /// </summary>
         /// <param name="originalGameObject">The original GameObject that is overridden</param>
         public GameObject this[GameObject originalGameObject]
@@ -134,10 +135,12 @@ namespace UnityEngine.Tilemaps
         /// The RuleTile to override
         /// </summary>
         public RuleTile m_Tile;
+
         /// <summary>
         /// A list of Sprite Overrides
         /// </summary>
         public List<TileSpritePair> m_Sprites = new List<TileSpritePair>();
+
         /// <summary>
         /// A list of GameObject Overrides
         /// </summary>

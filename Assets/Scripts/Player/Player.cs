@@ -17,22 +17,22 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void OnEnable()
     {
-        EventHandler.BeforeSceneUnloadEvent += SetPlayerDisabled;
-        EventHandler.AfterSceneLoadEvent += UnSetPlayerDisabled;
+        EventHandler.BeforeSceneUnloadEvent += DisablePlayerInput;
+        EventHandler.AfterSceneLoadEvent += EnablePlayerInput;
     }
 
     private void OnDisable()
     {
-        EventHandler.BeforeSceneUnloadEvent += SetPlayerDisabled;
-        EventHandler.AfterSceneLoadEvent += UnSetPlayerDisabled;
+        EventHandler.BeforeSceneUnloadEvent += DisablePlayerInput;
+        EventHandler.AfterSceneLoadEvent += EnablePlayerInput;
     }
 
-    public void SetPlayerDisabled()
+    public void DisablePlayerInput()
     {
         PlayerInputIsDisabled = true;
     }
 
-    public void UnSetPlayerDisabled()
+    public void EnablePlayerInput()
     {
         PlayerInputIsDisabled = false;
     }

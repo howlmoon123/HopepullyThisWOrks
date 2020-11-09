@@ -6,7 +6,7 @@ public class TriggerObscuringItemFader : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D target)
     {
-        Debug.LogError("Ob Trigger on Player " + target.name);
+        
         ObscuringItemFader[] obscuringItemFaders = target.GetComponentsInChildren<ObscuringItemFader>();
         if(obscuringItemFaders.Length > 0)
         {

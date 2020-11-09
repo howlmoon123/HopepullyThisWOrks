@@ -8,6 +8,8 @@ TagManager:
   - GroundDecoration1
   - GroundDecoration2
   - ItemsParentTransform
+  - NPCMovementPoints
+  - MonsterSpawnPoints
   layers:
   - Default
   - TransparentFX

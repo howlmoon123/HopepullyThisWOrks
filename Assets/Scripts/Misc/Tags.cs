@@ -6,4 +6,9 @@
     public const string GroundDecoration2 = "GroundDecoration2";
 
     public const string ItemsParentTransform = "ItemsParentTransform";
+
+    public const string NPCMovementPoints = "NPCMovementPoints";
+
+    public const string MonsterSpawnPoints = "MonsterSpawnPoints";
+
 }

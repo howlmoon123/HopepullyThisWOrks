@@ -11,34 +11,30 @@ public class MapManager : MonoBehaviour
     [SerializeField]
     List<TileData> tileDatas;
 
+    private void OnEnable()
+    {
+        EventHandler.AfterSceneLoadEvent += GetMapData;
+    }
+    private void OnDisable()
+    {
+        EventHandler.AfterSceneLoadEvent -= GetMapData;
+    }
+
+
     private Dictionary<TileBase, TileData> dataFromTiles;
 
     private void Awake()
     {
-        dataFromTiles = new Dictionary<TileBase, TileData>();
-
-        foreach (var tiledata in tileDatas)
-        {
-            foreach (var tile  in tiledata.tiles)
-            {
-                dataFromTiles.Add(tile, tiledata);
-            }
-        }
+        
 
     }
 
-    private void Update()
+   private void GetMapData()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3Int gridPosition = map.WorldToCell(mousePos);
+        Tilemap npcMap = GameObject.FindGameObjectWithTag(Tags.NPCMovementPoints).GetComponent<Tilemap>();
+        Tilemap monsterSpawnMap = GameObject.FindGameObjectWithTag(Tags.MonsterSpawnPoints).GetComponent<Tilemap>();
 
-            TileBase clickedTile = map.GetTile(gridPosition);
-
-            float walkingSpeed = dataFromTiles[clickedTile].walkingSpeed;
-
-            Debug.LogError("TIle " + gridPosition + " there is a clicked tile " + walkingSpeed);
-        }
+        Debug.LogError(npcMap.name + " Npc " + npcMap.localBounds + " Bounds");
+        Debug.LogError(monsterSpawnMap.name + " Monster " + monsterSpawnMap.localBounds + " Bounds");
     }
 }

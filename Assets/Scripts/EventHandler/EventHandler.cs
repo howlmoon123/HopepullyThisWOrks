@@ -1,5 +1,5 @@
 ﻿using System;
-
+using UnityEngine;
 public static class EventHandler
 {
     // Scene Load Events - in the order they happen
@@ -33,6 +33,7 @@ public static class EventHandler
     {
         if (AfterSceneLoadEvent != null)
         {
+            Debug.Log("Event Fired");
             AfterSceneLoadEvent();
         }
     }

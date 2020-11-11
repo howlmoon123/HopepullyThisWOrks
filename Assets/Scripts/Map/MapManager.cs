@@ -34,7 +34,6 @@ public class MapManager : MonoBehaviour
         Tilemap npcMap = GameObject.FindGameObjectWithTag(Tags.NPCMovementPoints).GetComponent<Tilemap>();
         Tilemap monsterSpawnMap = GameObject.FindGameObjectWithTag(Tags.MonsterSpawnPoints).GetComponent<Tilemap>();
 
-        Debug.LogError(npcMap.name + " Npc " + npcMap.localBounds + " Bounds");
-        Debug.LogError(monsterSpawnMap.name + " Monster " + monsterSpawnMap.localBounds + " Bounds");
+       
     }
 }

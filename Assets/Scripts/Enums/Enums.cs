@@ -13,3 +13,21 @@ public enum Direction
     left,
     right
 }
+
+public enum GridBoolProperty
+{
+    canPlaceFurniture,
+    isPath,
+    isNPCObstacle,
+    canSpawnMonsters
+}
+
+public enum InventoryItemType
+{
+    Weapon,
+    Magic,
+    Clerical,
+    Consumable,
+    none,
+    count
+}

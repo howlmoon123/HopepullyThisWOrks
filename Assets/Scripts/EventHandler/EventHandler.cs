@@ -33,7 +33,7 @@ public static class EventHandler
     {
         if (AfterSceneLoadEvent != null)
         {
-            Debug.Log("Event Fired");
+           
             AfterSceneLoadEvent();
         }
     }

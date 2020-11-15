@@ -436,6 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waterMap: {fileID: 0}
+  monsterSpawnMap: {fileID: 0}
 --- !u!1 &1103634716
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,4 +11,8 @@
 
     public const string MonsterSpawnPoints = "MonsterSpawnPoints";
 
+    public const string PlayerMovementProperties = "PlayerMovementProperties";
+
+    public const string isWater = "isWater";
+
 }

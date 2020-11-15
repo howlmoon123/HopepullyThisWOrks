@@ -3,7 +3,7 @@
 public static class Settings
 {
     // Scenes
-    public const string PersistentScene = "PersistentScene";
+    public const string PersistentScene = "PersistantScene";
 
     // Obscuring Item Fading - ObscuringItemFader
     public const float fadeInSeconds = 0.25f;

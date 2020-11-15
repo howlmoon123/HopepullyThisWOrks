@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.Tilemaps;
+using System.Linq;
+using System.Collections.Generic;
 
 public class Player : SingletonMonobehaviour<Player>
 {
 #pragma warning disable CS0108 // Member hides inherited member; missing new keyword
+    public Tilemap tileMap;
     private SpriteRenderer[] renderers;
     private Rigidbody2D rigidbody2D;
 #pragma warning restore CS0108 // Member hides inherited member; missing new keyword
@@ -14,6 +18,7 @@ public class Player : SingletonMonobehaviour<Player>
     private bool _playerInputIsDisabled = false;
     public bool PlayerInputIsDisabled { get => _playerInputIsDisabled; set => _playerInputIsDisabled = value; }
     public Direction playerDirection;
+    public Vector3Int currentIntPlayerPositon;
 
     private void OnEnable()
     {
@@ -23,8 +28,8 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void OnDisable()
     {
-        EventHandler.BeforeSceneUnloadEvent += DisablePlayerInput;
-        EventHandler.AfterSceneLoadEvent += EnablePlayerInput;
+        EventHandler.BeforeSceneUnloadEvent -= DisablePlayerInput;
+        EventHandler.AfterSceneLoadEvent -= EnablePlayerInput;
     }
 
     public void DisablePlayerInput()
@@ -35,12 +40,12 @@ public class Player : SingletonMonobehaviour<Player>
     public void EnablePlayerInput()
     {
         PlayerInputIsDisabled = false;
+      
     }
 
     protected override void Awake()
     {
         base.Awake();
-
         renderers = GetComponentsInChildren<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -52,17 +57,28 @@ public class Player : SingletonMonobehaviour<Player>
             PlayerMovementInput();
             PlayerWalkInput();
         }
+        currentIntPlayerPositon = new Vector3Int((int)transform.position.x, (int)transform.position.y, 0);
     }
 
     private void FixedUpdate()
     {
+       
         PlayerMovement();
     }
 
     private void PlayerMovement()
     {
         Vector2 move = new Vector2(xInput * movementSpeed * Time.deltaTime, yInput * movementSpeed * Time.deltaTime);
-
+        if (MapManager.Instance.waterLocations.Count > 0)
+        {
+            bool onWater = false;
+            MapManager.Instance.waterLocations.TryGetValue(currentIntPlayerPositon, out onWater);
+            
+            if (onWater)
+            {
+                move *= .5f;
+            }
+        }
         rigidbody2D.MovePosition(rigidbody2D.position + move);
     }
 
@@ -110,6 +126,14 @@ public class Player : SingletonMonobehaviour<Player>
         else
         {
             movementSpeed = Settings.runningSpeed;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.GetComponent<Store>())
+        {
+            Debug.LogError("Store type " + collision.GetComponent<Store>().locations.ToString());
         }
     }
 }

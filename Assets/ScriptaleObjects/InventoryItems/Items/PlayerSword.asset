@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b9893eba4e7f84da0c20a1e07ae591, type: 3}
+  m_Name: PlayerSword
+  m_EditorClassIdentifier: 
+  itemId: ec0c5179-fdc5-4853-88ad-57615871178b
+  InventoryItemType: 0
+  itemName: Sword
+  itemSprite: {fileID: 21300074, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  itemDescription: Basic Short Sword
+  damage: 5
+  defense: 3
+  mana: 0
+  encumberment: 2
+  qty: 0
+  buyValue: 0
+  sellValue: 0

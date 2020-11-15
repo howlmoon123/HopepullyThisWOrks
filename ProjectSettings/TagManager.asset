@@ -10,6 +10,7 @@ TagManager:
   - ItemsParentTransform
   - NPCMovementPoints
   - MonsterSpawnPoints
+  - isWater
   layers:
   - Default
   - TransparentFX

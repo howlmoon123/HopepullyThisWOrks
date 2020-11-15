@@ -1,0 +1,2482 @@
+fileFormatVersion: 2
+guid: e34028be90eaa3b458e723aca8f336b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3556041071666931713
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_0
+  - first:
+      213: -6140914983659087190
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_1
+  - first:
+      213: -6588357704845942751
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_2
+  - first:
+      213: 9168435213816268290
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_3
+  - first:
+      213: -6575720541666760101
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_4
+  - first:
+      213: -1220365524111738107
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_5
+  - first:
+      213: 4369257528667558515
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_6
+  - first:
+      213: 1561871262475235118
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_7
+  - first:
+      213: -8421727385080862834
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_8
+  - first:
+      213: -5573008721488329499
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_9
+  - first:
+      213: -672255625285821982
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_10
+  - first:
+      213: 3009424154000830868
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_11
+  - first:
+      213: 6442051175447749154
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_12
+  - first:
+      213: 6780736397987790817
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_13
+  - first:
+      213: 5321799064367231861
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_14
+  - first:
+      213: -4868462336756864630
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_15
+  - first:
+      213: -75637278027581097
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_16
+  - first:
+      213: 7299764429802645629
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_17
+  - first:
+      213: 7309136161813138704
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_18
+  - first:
+      213: 9163533647458195854
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_19
+  - first:
+      213: -8177262490415475149
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_20
+  - first:
+      213: 1813768401104809660
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_21
+  - first:
+      213: -6390644797310703608
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_22
+  - first:
+      213: 4360494171087835347
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_23
+  - first:
+      213: 170904341033172040
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_24
+  - first:
+      213: 2532599802579479818
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_25
+  - first:
+      213: 6257141122051173692
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_26
+  - first:
+      213: -6604725153215364209
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_27
+  - first:
+      213: -5386790181524344562
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_28
+  - first:
+      213: -146875120509595114
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_29
+  - first:
+      213: 8358243275428929855
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_30
+  - first:
+      213: 7969068318262698186
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_31
+  - first:
+      213: -2359278068450221611
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_32
+  - first:
+      213: 7550608867474062384
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_33
+  - first:
+      213: -5646234944938492434
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_34
+  - first:
+      213: -8862655336170074325
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_35
+  - first:
+      213: 6670660569059338996
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_36
+  - first:
+      213: 2250012127315775574
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_37
+  - first:
+      213: 1789963184323828152
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_38
+  - first:
+      213: 906662210075732028
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_39
+  - first:
+      213: 1181892936714214529
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_40
+  - first:
+      213: -5526691369238214196
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_41
+  - first:
+      213: -6630428600269715850
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_42
+  - first:
+      213: -2879572743455726423
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_43
+  - first:
+      213: 1561507130621493795
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_44
+  - first:
+      213: -7101814942162478768
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_45
+  - first:
+      213: 2892820201905820598
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_46
+  - first:
+      213: -4895963967539741553
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_47
+  - first:
+      213: -463081336396876914
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_48
+  - first:
+      213: 6262066762097689912
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_49
+  - first:
+      213: -7830909133347658158
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_50
+  - first:
+      213: -848934522527061461
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_51
+  - first:
+      213: -4974397379479840333
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_52
+  - first:
+      213: 4668592942727908327
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_53
+  - first:
+      213: 2946046297235097098
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_54
+  - first:
+      213: 4083317670214828381
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_55
+  - first:
+      213: 636804583234098969
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_56
+  - first:
+      213: 6877287164513397084
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_57
+  - first:
+      213: -1804160407647644423
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_58
+  - first:
+      213: 1420185282686345873
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_59
+  - first:
+      213: -6829745399943904504
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_60
+  - first:
+      213: -2507246381694684922
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_61
+  - first:
+      213: -341754474053019086
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_62
+  - first:
+      213: 941791623922676730
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_63
+  - first:
+      213: -9171723677945578316
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_64
+  - first:
+      213: 3880104832362789278
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_65
+  - first:
+      213: -5347113489784462367
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_66
+  - first:
+      213: -3936077935065322976
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_67
+  - first:
+      213: -234349449410391
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_68
+  - first:
+      213: 4418670566793995115
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_69
+  - first:
+      213: 8217929525247486741
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_70
+  - first:
+      213: -5479001051197627023
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_71
+  - first:
+      213: -1541475905515293515
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_72
+  - first:
+      213: -1582587599764146248
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_73
+  - first:
+      213: -4210902087516470000
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_74
+  - first:
+      213: 6017825613167217054
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_75
+  - first:
+      213: 4295594817256728920
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_76
+  - first:
+      213: 6726528794303399139
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_77
+  - first:
+      213: -1451095748537720638
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_78
+  - first:
+      213: 3979792091662433210
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_79
+  - first:
+      213: -6335732586152816330
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_80
+  - first:
+      213: -4517610750908509715
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_81
+  - first:
+      213: -6273300619026292056
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_82
+  - first:
+      213: 2111927660037077830
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_83
+  - first:
+      213: -7587594646801999800
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_84
+  - first:
+      213: -3572471879498908427
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_85
+  - first:
+      213: 7877741904138269100
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_86
+  - first:
+      213: -4886524283504278391
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_87
+  - first:
+      213: -7317801790628705530
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_88
+  - first:
+      213: -149165387842893007
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_89
+  - first:
+      213: -1314954026087642598
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_90
+  - first:
+      213: -8657683173574145713
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_91
+  - first:
+      213: 8494734209638045392
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_92
+  - first:
+      213: -3428749685241344539
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_93
+  - first:
+      213: 4430348644995607432
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_94
+  - first:
+      213: 3948643993627427446
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_95
+  - first:
+      213: -3816598854838911963
+    second: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_96
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 241
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7d79c6c7766aec0800000000000000
+      internalID: -3556041071666931713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 240
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa502bbb5617caa0800000000000000
+      internalID: -6140914983659087190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 241
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1202375f2937194a0800000000000000
+      internalID: -6588357704845942751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 239
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20683b12043dc3f70800000000000000
+      internalID: 9168435213816268290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 239
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aa6bbc1095eb4a0800000000000000
+      internalID: -6575720541666760101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bbf278504601fe0800000000000000
+      internalID: -1220365524111738107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3725e60b298b2ac30800000000000000
+      internalID: 4369257528667558515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f2ab853a1eca510800000000000000
+      internalID: 1561871262475235118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8763114093002b80800000000000000
+      internalID: -8421727385080862834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 239
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4c8894812b8a2b0800000000000000
+      internalID: -5573008721488329499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 240
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e99490121baba6f0800000000000000
+      internalID: -672255625285821982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 240
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49133bdc25f93c920800000000000000
+      internalID: 3009424154000830868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 240
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2226371a963c66950800000000000000
+      internalID: 6442051175447749154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efbf9df3d30a1e50800000000000000
+      internalID: 6780736397987790817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5737d9d8d04dad940800000000000000
+      internalID: 5321799064367231861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a892d378c4fbf6cb0800000000000000
+      internalID: -4868462336756864630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759736fdb4843fef0800000000000000
+      internalID: -75637278027581097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d782b66b219fd4560800000000000000
+      internalID: 7299764429802645629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d85db1d944f6560800000000000000
+      internalID: 7309136161813138704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d5184d496b2f70800000000000000
+      internalID: 9163533647458195854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336d8a70717848e80800000000000000
+      internalID: -8177262490415475149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 204
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe2ea440cccb2910800000000000000
+      internalID: 1813768401104809660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808e89a7a6edf47a0800000000000000
+      internalID: -6390644797310703608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 205
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d01ad08856938c30800000000000000
+      internalID: 4360494171087835347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 207
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cbad9b79c2f5200800000000000000
+      internalID: 170904341033172040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_25
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 208
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d69f62a1a952320800000000000000
+      internalID: 2532599802579479818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 205
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d6951e2b4d5d650800000000000000
+      internalID: 6257141122051173692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83c28b677d4754a0800000000000000
+      internalID: -6604725153215364209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01fdaeced64e35b0800000000000000
+      internalID: -5386790181524344562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612dea72bd136fdf0800000000000000
+      internalID: -146875120509595114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f312d32a9f17ef370800000000000000
+      internalID: 8358243275428929855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac02edcd961d79e60800000000000000
+      internalID: 7969068318262698186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a7a3c819224fd0800000000000000
+      internalID: -2359278068450221611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cb4b792c629c860800000000000000
+      internalID: 7550608867474062384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_34
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 172
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed3b8c8b3b84a1b0800000000000000
+      internalID: -5646234944938492434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_35
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 172
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fccd89de5810580800000000000000
+      internalID: -8862655336170074325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faacf3e172f29c50800000000000000
+      internalID: 6670660569059338996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6505af4db16a93f10800000000000000
+      internalID: 2250012127315775574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 139
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b916a2580a37d810800000000000000
+      internalID: 1789963184323828152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38a5d2f97c159c00800000000000000
+      internalID: 906662210075732028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_40
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cd46f2d5de66010800000000000000
+      internalID: 1181892936714214529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 139
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9c6593b7f3d43b0800000000000000
+      internalID: -5526691369238214196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_42
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676455c415cfbf3a0800000000000000
+      internalID: -6630428600269715850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_43
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 138
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4ac61b8d3b908d0800000000000000
+      internalID: -2879572743455726423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_44
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 140
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3220fea46769ba510800000000000000
+      internalID: 1561507130621493795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_45
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 139
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05918d7efe8417d90800000000000000
+      internalID: -7101814942162478768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_46
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 139
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39ba595ac552820800000000000000
+      internalID: 2892820201905820598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c7ea126ba0e0cb0800000000000000
+      internalID: -4895963967539741553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_48
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 103
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8373f16afdc299f0800000000000000
+      internalID: -463081336396876914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8350d92da8457e650800000000000000
+      internalID: 6262066762097689912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 102
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256637612a5035390800000000000000
+      internalID: -7830909133347658158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 102
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a6533bc8af734f0800000000000000
+      internalID: -848934522527061461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 122
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9587850f367fab0800000000000000
+      internalID: -4974397379479840333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_53
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 102
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb4130db8c2ac040800000000000000
+      internalID: 4668592942727908327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_55
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d510b3669cbdaa830800000000000000
+      internalID: 4083317670214828381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_56
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 104
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917520ff46266d800800000000000000
+      internalID: 636804583234098969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_58
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 102
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f496580ba556f6e0800000000000000
+      internalID: -1804160407647644423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192e1c97df285b310800000000000000
+      internalID: 1420185282686345873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8034cf98ebed731a0800000000000000
+      internalID: -6829745399943904504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60174b623b8743dd0800000000000000
+      internalID: -2507246381694684922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_62
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a5ba5dd18d14bf0800000000000000
+      internalID: -341754474053019086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_63
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3795cfd7ae11d00800000000000000
+      internalID: 941791623922676730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_64
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb306a8ed77b080800000000000000
+      internalID: -9171723677945578316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99b24099c6e8d530800000000000000
+      internalID: 3880104832362789278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 69
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3a2bb7c9c3bc5b0800000000000000
+      internalID: -5347113489784462367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_67
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 75
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aad28e8fd3069c0800000000000000
+      internalID: -3936077935065322976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 34
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a880544cda2ffff0800000000000000
+      internalID: -234349449410391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_69
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 69
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63ea392875425d30800000000000000
+      internalID: 4418670566793995115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_70
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b229ddc53fb0270800000000000000
+      internalID: 8217929525247486741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_71
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175af5ba29da6f3b0800000000000000
+      internalID: -5479001051197627023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4ffedb4d39b9ae0800000000000000
+      internalID: -1541475905515293515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 58
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7be1286f4890ae0800000000000000
+      internalID: -1582587599764146248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01541a99cdedf85c0800000000000000
+      internalID: -4210902087516470000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_75
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e994419e28c938350800000000000000
+      internalID: 6017825613167217054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859a89d2ab40d9b30800000000000000
+      internalID: 4295594817256728920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 34
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e404ebbc4e695d50800000000000000
+      internalID: 6726528794303399139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_78
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0645dda1cacdbe0800000000000000
+      internalID: -1451095748537720638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_79
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbb27f42df0b3730800000000000000
+      internalID: 3979792091662433210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_80
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6319e72f7c4f218a0800000000000000
+      internalID: -6335732586152816330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_81
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1dc9615f83e41c0800000000000000
+      internalID: -4517610750908509715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a223b90352c0f8a0800000000000000
+      internalID: -6273300619026292056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_83
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 34
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf4df64031f4d10800000000000000
+      internalID: 2111927660037077830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_84
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 35
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84816b99ed273b690800000000000000
+      internalID: -7587594646801999800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_85
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 35
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc356cd0c70c6ec0800000000000000
+      internalID: -3572471879498908427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_86
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 40
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1fe54168c535d60800000000000000
+      internalID: 7877741904138269100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_87
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 37
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9844867dd049f2cb0800000000000000
+      internalID: -4886524283504278391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bcbd4fa02f17a90800000000000000
+      internalID: -7317801790628705530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_89
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b47dcbede0eedf0800000000000000
+      internalID: -149165387842893007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_90
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a831bb74850cde0800000000000000
+      internalID: -1314954026087642598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a068d8e9f7572e820800000000000000
+      internalID: 2946046297235097098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59ac2b1d38017f50800000000000000
+      internalID: 6877287164513397084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_91
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 34
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f498c35260bb9d780800000000000000
+      internalID: -8657683173574145713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_92
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 33
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d695d2b1cb53e570800000000000000
+      internalID: 8494734209638045392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_93
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 67
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed057bd352aa60d0800000000000000
+      internalID: -3428749685241344539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_94
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 69
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ba810ae92cb7d30800000000000000
+      internalID: 4430348644995607432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_95
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67284a89ac66cc630800000000000000
+      internalID: 3948643993627427446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_98_free_rpg_icons_by_7soul1_d6g2amz-fullview_96
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 104
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cf92f0097b80bc0800000000000000
+      internalID: -3816598854838911963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

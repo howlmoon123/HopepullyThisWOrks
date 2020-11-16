@@ -5,6 +5,8 @@ public static class Settings
     // Scenes
     public const string PersistentScene = "PersistantScene";
 
+    public const float MonsterSpawnTime = 5f;
+
     // Obscuring Item Fading - ObscuringItemFader
     public const float fadeInSeconds = 0.25f;
 

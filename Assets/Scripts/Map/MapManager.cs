@@ -13,6 +13,8 @@ public class MapManager : SingletonMonobehaviour<MapManager>
     [SerializeField]
     Tilemap monsterSpawnMap;
 
+    List<Vector3Int> monsterPoints = new List<Vector3Int>();
+
     public Dictionary<Vector3Int, bool> waterLocations;
     public Dictionary<Vector3Int, bool> monsterSpawnPoints;
 
@@ -20,6 +22,8 @@ public class MapManager : SingletonMonobehaviour<MapManager>
     {
         base.Awake();
         SceneManager.sceneLoaded += OnSceneLoaded;
+    //    testWaterData.BuildData();
+       // UnityEditor.EditorUtility.SetDirty(testWaterData);
     }
 
     private void OnEnable()
@@ -48,6 +52,7 @@ public class MapManager : SingletonMonobehaviour<MapManager>
         monsterSpawnMap = FindObjectsOfType<Tilemap>().ToList().Find(x => x.gameObject.tag == Tags.MonsterSpawnPoints);
         waterLocations = new Dictionary<Vector3Int, bool>();
         monsterSpawnPoints = new Dictionary<Vector3Int, bool>();
+       
         foreach(Vector3Int pos in waterMap.cellBounds.allPositionsWithin)
         {
            
@@ -62,9 +67,17 @@ public class MapManager : SingletonMonobehaviour<MapManager>
             if(monsterSpawnMap.HasTile(pos))
             {
                 monsterSpawnPoints.Add(pos, true);
+                monsterPoints.Add(pos);
             }
         }
 
         Debug.LogError("Water Locations " + waterLocations.Count + " Monster Spawn " + monsterSpawnPoints.Count);
     }
+
+    public List<Vector3Int> MonsterPoints()
+    {
+        return monsterPoints;
+    }
+
+    
 }

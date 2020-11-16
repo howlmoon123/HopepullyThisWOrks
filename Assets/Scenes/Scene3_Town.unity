@@ -49666,7 +49666,7 @@ GameObject:
   - component: {fileID: 8030239943299343297}
   m_Layer: 0
   m_Name: PlayerMovementProperties
-  m_TagString: PlayerMovementProperties
+  m_TagString: isWater
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50346,7 +50346,7 @@ GameObject:
   - component: {fileID: 3559564658413696454}
   m_Layer: 0
   m_Name: NpcMoveProperties
-  m_TagString: Untagged
+  m_TagString: MonsterSpawnPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

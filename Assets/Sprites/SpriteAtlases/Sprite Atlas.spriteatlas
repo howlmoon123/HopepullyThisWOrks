@@ -44,7 +44,6 @@ SpriteAtlas:
     packables:
     - {fileID: 102900000, guid: 6bdd76ca5385dfb4fada6b8f6fb5d113, type: 3}
     - {fileID: 102900000, guid: b0597f1f7956ae94cb39ab5cefa559c3, type: 3}
-    - {fileID: 102900000, guid: 44ca129cc821bea46bf0b9eba56a7eae, type: 3}
     - {fileID: 102900000, guid: a4326b2f5a0e03847b5b8d6f77aa3fc8, type: 3}
     - {fileID: 102900000, guid: 0e56ab080315ab0429ad0ebb7a72570d, type: 3}
     - {fileID: 102900000, guid: 5acb751cf71bcd24b8f9724b0b6247b8, type: 3}
@@ -52,7 +51,7 @@ SpriteAtlas:
     - {fileID: 102900000, guid: 76b67f58cf2a792438dacf663689a3c0, type: 3}
     - {fileID: 102900000, guid: 0192443a29c27e747a3eb28596eddb21, type: 3}
     - {fileID: 102900000, guid: 15ae8b62ae9660f4f87a9f2d47eacc97, type: 3}
-    totalSpriteSurfaceArea: 338750
+    totalSpriteSurfaceArea: 336430
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -95,16 +94,6 @@ SpriteAtlas:
   - {fileID: 4005202913230342895, guid: 2d0dfd935517f7049a9ec156af517511, type: 3}
   - {fileID: 5613540868099651934, guid: 2d0dfd935517f7049a9ec156af517511, type: 3}
   - {fileID: -2514537956183521370, guid: 2d0dfd935517f7049a9ec156af517511, type: 3}
-  - {fileID: -6853649311568494795, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: 1549225131909812281, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: -2634811762275802146, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: 5931242471646302317, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: 1274422669862156747, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: 5546012167625906029, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: -3914910146244942373, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: -1166211891172804109, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: 21300000, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
-  - {fileID: 1957107745717523172, guid: fec47794c20ce834da941a7b4e8caa07, type: 3}
   - {fileID: 21300000, guid: 2a6700e4157309649a1edb27b126da7c, type: 3}
   - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
   - {fileID: 21300000, guid: 60f7a57556be87841a8cabc94054df28, type: 3}
@@ -929,16 +918,6 @@ SpriteAtlas:
   - Butch_Portrait_0
   - Butch_Portrait_1
   - Butch_Portrait_2
-  - effects_8
-  - effects_9
-  - effects_6
-  - effects_7
-  - effects_4
-  - effects_5
-  - effects_2
-  - effects_3
-  - effects_0
-  - effects_1
   - InventoryPlayerGreyedOut
   - Transparent16x16
   - Table

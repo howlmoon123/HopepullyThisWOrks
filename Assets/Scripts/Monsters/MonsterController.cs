@@ -24,7 +24,7 @@ public class MonsterController : SingletonMonobehaviour<MonsterController>
         spawnerCounter -= Time.deltaTime;
         if(spawnerCounter <= 0f)
         {
-            Debug.LogError("SpawnMonster " + GetRandomPoint());
+           
             spawnerCounter = Settings.MonsterSpawnTime;
         }
     }

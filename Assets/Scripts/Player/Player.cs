@@ -40,7 +40,7 @@ public class Player : SingletonMonobehaviour<Player>
     public void EnablePlayerInput()
     {
         PlayerInputIsDisabled = false;
-      
+
     }
 
     protected override void Awake()
@@ -62,23 +62,24 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void FixedUpdate()
     {
-       
+
         PlayerMovement();
     }
 
     private void PlayerMovement()
     {
         Vector2 move = new Vector2(xInput * movementSpeed * Time.deltaTime, yInput * movementSpeed * Time.deltaTime);
-        if (MapManager.Instance.waterLocations.Count > 0)
-        {
-            bool onWater = false;
-            MapManager.Instance.waterLocations.TryGetValue(currentIntPlayerPositon, out onWater);
-            
-            if (onWater)
+        /*    if (MapManager.Instance.waterLocations.Count > 0)
             {
-                move *= .5f;
+                bool onWater = false;
+                MapManager.Instance.waterLocations.TryGetValue(currentIntPlayerPositon, out onWater);
+
+                if (onWater)
+                {
+                    move *= .5f;
+                }
             }
-        }
+        */
         rigidbody2D.MovePosition(rigidbody2D.position + move);
     }
 
@@ -131,9 +132,29 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<Store>())
+        if (collision.GetComponent<Store>())
         {
             Debug.LogError("Store type " + collision.GetComponent<Store>().locations.ToString());
         }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D target)
+    {
+
+     /*   NPC nPC = target.gameObject.GetComponent<NPC>();
+
+        if (nPC != null)
+        {
+
+            Debug.LogError("Collision " + nPC.dialog.name);
+            if (nPC.dialog != null)
+            {
+                UIManager.Instance.ShowText(nPC.dialog.Dialogs[0].dialog[0],
+                    nPC.dialog.Dialogs[0].speakersImage
+                    , target.gameObject.transform.position);
+            }
+        }
+     */
     }
 }

@@ -15,4 +15,6 @@
 
     public const string isWater = "isWater";
 
+    public const string Player = "Player";
+
 }

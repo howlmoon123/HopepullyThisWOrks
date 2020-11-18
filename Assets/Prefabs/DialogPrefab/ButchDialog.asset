@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f462c7fea381e1e429589e9ddfec9f6c, type: 3}
+  m_Name: ButchDialog
+  m_EditorClassIdentifier: 
+  Dialogs:
+  - dialog:
+    - High there!!
+    speakersName: Butch
+    speakersImage: {fileID: -6177883350512257784, guid: afba78ae84664a941a55c31758ab5cf9, type: 3}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3525aad64808ca94481a6a2136cb8053
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kenney Bold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 94ad95b3b2a49e949a559598cc179808, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

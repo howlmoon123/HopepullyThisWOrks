@@ -48,4 +48,14 @@ public static class EventHandler
             AfterSceneLoadFadeInEvent();
         }
     }
+
+    public static event Action<string, Sprite, Vector3> DialogEvent;
+
+    public static void CallDialogEvent(string speech, Sprite sprite, Vector3 pos)
+    {
+        if(DialogEvent != null)
+        {
+            DialogEvent(speech, sprite, pos);
+        }
+    }
 }

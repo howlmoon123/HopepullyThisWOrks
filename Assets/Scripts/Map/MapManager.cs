@@ -71,7 +71,7 @@ public class MapManager : SingletonMonobehaviour<MapManager>
             }
         }
 
-        Debug.LogError("Water Locations " + waterLocations.Count + " Monster Spawn " + monsterSpawnPoints.Count);
+      
     }
 
     public List<Vector3Int> MonsterPoints()
